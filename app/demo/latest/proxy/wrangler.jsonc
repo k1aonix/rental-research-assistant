@@ -1,0 +1,12 @@
+{
+  "name": "rental-demo-model-proxy",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-23",
+  "workers_dev": true,
+  "vars": {
+    "ALLOWED_ORIGIN": "https://k1aonix.github.io",
+    "OPENROUTER_MODEL": "z-ai/glm-5.3-flash",
+    "DEMO_ENABLED": "false"
+  },
+  "ratelimits": [{"name":"RATE_LIMITER","namespace_id":"631604","simple":{"limit":20,"period":60}}]
+}

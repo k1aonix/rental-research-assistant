@@ -1,0 +1,15 @@
+.private/
+data/
+.env
+.env.*
+!.env.example
+**/.runtime/
+**/.venv/
+**/__pycache__/
+*.pyc
+*.sqlite*
+*.log
+node_modules/
+browser-profile/
+model-config.local.json
+**/dist/
